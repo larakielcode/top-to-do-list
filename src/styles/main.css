@@ -1,7 +1,15 @@
 /* main.css */
 
+@font-face {
+    font-family: Roboto;
+    src: url('../../asset/fonts/roboto-var.woff2');
+}
+
 * {
-    
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+
     /* my defined colors */
     --clr-off-white: #FAF9F6;
 }
