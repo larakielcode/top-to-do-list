@@ -1,9 +1,9 @@
 // main-content.js
 
 export default function displayUi() {
-    const mainContent = document.querySelector('#main-content');
+    const topNavWrapper = document.querySelector('#top-nav');
     const testpara = document.createElement('p');
 
-    mainContent.appendChild(testpara);
+    topNavWrapper.appendChild(testpara);
     testpara.textContent = 'this works';
 }

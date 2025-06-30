@@ -1,5 +1,32 @@
 /* main.css */
 
+* {
+    
+    /* my defined colors */
+    --clr-off-white: #FAF9F6;
+}
+
 body {
-    background-color: rebeccapurple;
+    background-color: var(--clr-off-white);
+}
+
+.wrapper {
+    background-color: red;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+nav {
+    background-color: yellow;
+    grid-column: 1 / 2;
+}
+
+main {
+    background-color: pink;
+    grid-column: 2 / 3;
+}
+
+footer {
+    background-color: orange;
+    grid-column: 1 / 3;
 }
