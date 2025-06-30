@@ -1,3 +1,5 @@
 import './styles/main.css';
+import displayUi from './main-content';
 
-console.log('this is working');
+// display the ui first
+displayUi();
