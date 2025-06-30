@@ -24,7 +24,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Larakiel TODO List',
+            title: 'TODO APP :: Larakielcode',
             template: 'src/template.html',
         }),
     ],
