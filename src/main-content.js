@@ -14,7 +14,15 @@ export default function displayUi() {
 
     navWrapper.appendChild(navProjectContainer);
     navProjectContainer.classList.add('nav-project-container');
-    const navProjectFirstDiv = document.createElement('div');
+
+    const navProjectPara = document.createElement('p');
+    const navProjectImage = document.createElement('img');
+
+    navProjectContainer.appendChild(navProjectImage);
+    navProjectImage.classList.add('project-image');
+    navProjectImage.src = groupsvg;
+    navProjectContainer.appendChild(navProjectPara);
+    navProjectPara.textContent = 'PROJECTS';
 
 
     navWrapper.appendChild(navTodoOptionsContainer);

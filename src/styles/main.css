@@ -9,9 +9,13 @@
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
+    padding: 0;
+    margin: 0;
 
     /* my defined colors */
     --clr-off-white: #FAF9F6;
+    --clr-pastel-pink: #ff8fab;
+    --filter-pink: brightness(0) saturate(100%) invert(87%) sepia(20%) saturate(5635%) hue-rotate(294deg) brightness(101%) contrast(101%);
 }
 
 body {
@@ -19,13 +23,11 @@ body {
 }
 
 .wrapper {
-    background-color: red;
     display: grid;
     grid-template-columns: 300px 1fr;
 }
 
 nav {
-    background-color: yellow;
     grid-column: 1 / 2;
 }
 

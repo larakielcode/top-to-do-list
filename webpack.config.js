@@ -12,7 +12,7 @@ module.exports = {
         filename: '[name][contenthash].js',
         path: path.resolve(__dirname, 'dist'),
         clean: true,
-        assetModuleFilename: 'images/[name].[has][ext][query]',
+        assetModuleFilename: 'images/[name][hash][ext][query]',
     },
     devtool: 'eval-source-map',
     devServer: {
