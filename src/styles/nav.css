@@ -7,3 +7,25 @@
     padding: 0 0 1rem 0;
     letter-spacing: 0.1rem;
 }
+
+nav ul {
+    padding: 0 1rem;
+    margin: 0;
+    list-style: none;
+    line-height: 1.4;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 0.2rem;
+}
+
+nav ul li {
+    padding: 1rem 0;
+}
+
+nav ul li:hover {
+    background-color: pink;
+}
+
+nav ul li a {
+    font-size: 1.6rem;
+}

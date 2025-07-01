@@ -1,12 +1,12 @@
 /* main.css */
 
 @font-face {
-    font-family: Roboto;
-    src: url('../../asset/fonts/roboto-var.woff2');
+    font-family: Literata;
+    src: url('../../asset/fonts/literata.woff2');
 }
 
 * {
-    font-family: Roboto, sans;
+    font-family: Literata, sans;
     font-size: 10px;
     font-weight: 400;
     padding: 0;
@@ -18,7 +18,8 @@
     --clr-white-var: #ffffff;
     --clr-pastel-pink: #ff8fab;
     --clr-pastel-pink-dark: #fb6f92;
-    --clr-dark-brown: #d0ae7e;
+    --clr-dark-brown: #333;
+    --clr-green: #0eb624;
 }
 
 body {
@@ -40,7 +41,7 @@ p {
 
 .wrapper {
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 350px 1fr;
 }
 
 header {
