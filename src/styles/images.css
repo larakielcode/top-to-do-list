@@ -1,0 +1,6 @@
+#header-logo {
+    width: 4.5rem;
+    aspect-ratio: 1 / 1;
+    filter: brightness(0) saturate(100%) invert(70%) sepia(20%) saturate(7440%) hue-rotate(305deg) brightness(100%) contrast(97%)
+        drop-shadow(1px 1px 1px rgba(160, 160, 160, 0.9));
+}
